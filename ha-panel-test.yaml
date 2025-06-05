@@ -113,7 +113,7 @@ substitutions:
 
 esphome:
   name: hapanel3
-  friendly_name: Display Schlafzimmer
+  friendly_name: Pantalla estudio
   platformio_options:
     board_build.flash_mode: dio
   on_boot:
@@ -181,7 +181,7 @@ ota:
 wifi:
   manual_ip:
     static_ip: 192.168.1.70 #30
-    gateway: 192.168.1.1
+    gateway: 192.168.31.1
     subnet: 255.255.255.0
   networks:
   - ssid: !secret wifi_ssid
